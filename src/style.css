@@ -15,8 +15,245 @@ body {
   color: #212127;
 }
 
+@keyframes move {
+  100% {
+    transform: translate3d(0, 0, 1px) rotate(360deg);
+  }
+}
+
+.background {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: #ff7b00;
+  overflow: hidden;
+}
+
+.background span {
+  width: 41vmin;
+  height: 41vmin;
+  border-radius: 41vmin;
+  backface-visibility: hidden;
+  position: absolute;
+  animation: move;
+  animation-duration: 31;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.background span:nth-child(0) {
+  color: #f07400;
+  top: 66%;
+  left: 39%;
+  animation-duration: 79s;
+  animation-delay: -7s;
+  transform-origin: 1vw 20vh;
+  box-shadow: 82vmin 0 10.416139995889386vmin currentColor;
+}
+.background span:nth-child(1) {
+  color: #ff943d;
+  top: 47%;
+  left: 79%;
+  animation-duration: 141s;
+  animation-delay: -60s;
+  transform-origin: -19vw -9vh;
+  box-shadow: 82vmin 0 10.430129346556194vmin currentColor;
+}
+.background span:nth-child(2) {
+  color: #ffba7a;
+  top: 74%;
+  left: 1%;
+  animation-duration: 165s;
+  animation-delay: -179s;
+  transform-origin: 23vw 22vh;
+  box-shadow: -82vmin 0 10.722853707066804vmin currentColor;
+}
+.background span:nth-child(3) {
+  color: #f07400;
+  top: 38%;
+  left: 51%;
+  animation-duration: 39s;
+  animation-delay: -122s;
+  transform-origin: -23vw 22vh;
+  box-shadow: -82vmin 0 10.585357754631382vmin currentColor;
+}
+.background span:nth-child(4) {
+  color: #ffba7a;
+  top: 39%;
+  left: 29%;
+  animation-duration: 28s;
+  animation-delay: -61s;
+  transform-origin: 8vw 7vh;
+  box-shadow: 82vmin 0 10.297682072763113vmin currentColor;
+}
+.background span:nth-child(5) {
+  color: #ff943d;
+  top: 31%;
+  left: 96%;
+  animation-duration: 123s;
+  animation-delay: -70s;
+  transform-origin: -21vw 5vh;
+  box-shadow: 82vmin 0 10.844892753553413vmin currentColor;
+}
+.background span:nth-child(6) {
+  color: #ff943d;
+  top: 30%;
+  left: 47%;
+  animation-duration: 148s;
+  animation-delay: -38s;
+  transform-origin: -10vw 9vh;
+  box-shadow: -82vmin 0 10.26687179842354vmin currentColor;
+}
+.background span:nth-child(7) {
+  color: #ff943d;
+  top: 36%;
+  left: 66%;
+  animation-duration: 78s;
+  animation-delay: -115s;
+  transform-origin: -21vw 13vh;
+  box-shadow: -82vmin 0 10.983006607478101vmin currentColor;
+}
+.background span:nth-child(8) {
+  color: #ffba7a;
+  top: 58%;
+  left: 85%;
+  animation-duration: 184s;
+  animation-delay: -91s;
+  transform-origin: 19vw -10vh;
+  box-shadow: -82vmin 0 10.686810013184749vmin currentColor;
+}
+.background span:nth-child(9) {
+  color: #ffba7a;
+  top: 31%;
+  left: 2%;
+  animation-duration: 82s;
+  animation-delay: -55s;
+  transform-origin: 18vw -7vh;
+  box-shadow: 82vmin 0 10.449678270676586vmin currentColor;
+}
+.background span:nth-child(10) {
+  color: #ffba7a;
+  top: 79%;
+  left: 95%;
+  animation-duration: 128s;
+  animation-delay: -22s;
+  transform-origin: 17vw 4vh;
+  box-shadow: 82vmin 0 10.559097296086504vmin currentColor;
+}
+.background span:nth-child(11) {
+  color: #ffba7a;
+  top: 47%;
+  left: 98%;
+  animation-duration: 151s;
+  animation-delay: -58s;
+  transform-origin: -3vw -10vh;
+  box-shadow: -82vmin 0 10.46996416082307vmin currentColor;
+}
+.background span:nth-child(12) {
+  color: #f07400;
+  top: 5%;
+  left: 39%;
+  animation-duration: 189s;
+  animation-delay: -156s;
+  transform-origin: 13vw 0vh;
+  box-shadow: 82vmin 0 10.314679004818064vmin currentColor;
+}
+.background span:nth-child(13) {
+  color: #ff943d;
+  top: 49%;
+  left: 37%;
+  animation-duration: 91s;
+  animation-delay: -47s;
+  transform-origin: -1vw -8vh;
+  box-shadow: -82vmin 0 10.405413512575121vmin currentColor;
+}
+.background span:nth-child(14) {
+  color: #ffba7a;
+  top: 10%;
+  left: 51%;
+  animation-duration: 126s;
+  animation-delay: -165s;
+  transform-origin: -7vw 14vh;
+  box-shadow: 82vmin 0 10.639887450302545vmin currentColor;
+}
+.background span:nth-child(15) {
+  color: #ff943d;
+  top: 59%;
+  left: 4%;
+  animation-duration: 72s;
+  animation-delay: -78s;
+  transform-origin: -13vw -2vh;
+  box-shadow: -82vmin 0 10.290013345996647vmin currentColor;
+}
+.background span:nth-child(16) {
+  color: #ff943d;
+  top: 82%;
+  left: 78%;
+  animation-duration: 115s;
+  animation-delay: -175s;
+  transform-origin: 12vw -14vh;
+  box-shadow: -82vmin 0 11.205470143645963vmin currentColor;
+}
+.background span:nth-child(17) {
+  color: #f07400;
+  top: 23%;
+  left: 40%;
+  animation-duration: 156s;
+  animation-delay: -58s;
+  transform-origin: -9vw 9vh;
+  box-shadow: 82vmin 0 11.180929312457039vmin currentColor;
+}
+.background span:nth-child(18) {
+  color: #f07400;
+  top: 40%;
+  left: 11%;
+  animation-duration: 35s;
+  animation-delay: -189s;
+  transform-origin: -4vw -16vh;
+  box-shadow: -82vmin 0 10.27070644981928vmin currentColor;
+}
+.background span:nth-child(19) {
+  color: #f07400;
+  top: 73%;
+  left: 11%;
+  animation-duration: 124s;
+  animation-delay: -187s;
+  transform-origin: 20vw 3vh;
+  box-shadow: 82vmin 0 11.067563023919968vmin currentColor;
+}
+.background span:nth-child(20) {
+  color: #f07400;
+  top: 71%;
+  left: 87%;
+  animation-duration: 75s;
+  animation-delay: -172s;
+  transform-origin: 19vw 17vh;
+  box-shadow: 82vmin 0 10.448732522362727vmin currentColor;
+}
+.background span:nth-child(21) {
+  color: #ff943d;
+  top: 10%;
+  left: 80%;
+  animation-duration: 192s;
+  animation-delay: -159s;
+  transform-origin: 24vw 5vh;
+  box-shadow: 82vmin 0 11.070200287764198vmin currentColor;
+}
+.background span:nth-child(22) {
+  color: #ff943d;
+  top: 57%;
+  left: 30%;
+  animation-duration: 129s;
+  animation-delay: -88s;
+  transform-origin: 15vw -4vh;
+  box-shadow: -82vmin 0 11.110877334670226vmin currentColor;
+}
+
 a {
-  color: #ed7000;
+  color: #f9f9f9;
+  text-decoration: none;
 }
 
 .weather-app {
@@ -40,21 +277,22 @@ header {
 }
 
 .search-form-input {
-  background-color: #f9f7fe;
+  background-color: #f9f7fe81;
   border: none;
   border-radius: 8px;
   padding: 16px;
   font-size: 16px;
   width: 80%;
+  color: #fff;
 }
 
 .search-form-button {
-  background: #fea14e;
+  background: #fff;
   padding: 16px 32px;
   margin-left: 16px;
-  border: none;
+  border: #f07400 solid 2px;
   border-radius: 8px;
-  color: #fff;
+  color: #f07400;
   font-size: 16px;
 }
 
